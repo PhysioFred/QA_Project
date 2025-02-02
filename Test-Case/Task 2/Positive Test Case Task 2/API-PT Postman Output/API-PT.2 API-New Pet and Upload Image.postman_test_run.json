@@ -1,0 +1,132 @@
+{
+	"id": "1c0794ba-583a-4450-af83-6663bbb60e08",
+	"name": "API-PT.2 API-New Pet and Upload Image",
+	"timestamp": "2025-02-02T02:15:47.828Z",
+	"collection_id": "41691738-aff88745-2750-4ada-a7fa-7a88695b7482",
+	"folder_id": 0,
+	"environment_id": "41691738-6716f750-1fd0-45c2-ad5a-9e981c9d70ce",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-02-02T02:15:43.965Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "dec58a9c-5562-4923-9ca6-0a7d491e0bd0",
+			"name": "API.PT.2.1 Add a new pet to the store",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 973,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				973
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3796f5c6-ec29-4fb6-957f-6ee055df9912",
+			"name": "API.PT.2.2 Find pet by ID first check",
+			"url": "https://petstore.swagger.io/v2/pet/2025557788",
+			"time": 234,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				234
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2a6eb4fb-14cf-4d57-b575-80e211046166",
+			"name": "API.PT.2.3 uploads an image",
+			"url": "https://petstore.swagger.io/v2/pet/2025557788/uploadImage",
+			"time": 1530,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1530
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ef529782-7ec3-4448-bc93-36003cdc488a",
+			"name": "API.PT.2.4 Update an existing pet",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 233,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				233
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1e2415a6-830e-4a82-aec3-a11c9720cc83",
+			"name": "API.PT.2.5 Find pet by ID final check",
+			"url": "https://petstore.swagger.io/v2/pet/2025557788",
+			"time": 233,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				233
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3203,
+	"collection": {
+		"requests": [
+			{
+				"id": "dec58a9c-5562-4923-9ca6-0a7d491e0bd0",
+				"method": "POST"
+			},
+			{
+				"id": "3796f5c6-ec29-4fb6-957f-6ee055df9912",
+				"method": "GET"
+			},
+			{
+				"id": "2a6eb4fb-14cf-4d57-b575-80e211046166",
+				"method": "POST"
+			},
+			{
+				"id": "ef529782-7ec3-4448-bc93-36003cdc488a",
+				"method": "PUT"
+			},
+			{
+				"id": "1e2415a6-830e-4a82-aec3-a11c9720cc83",
+				"method": "GET"
+			}
+		]
+	}
+}

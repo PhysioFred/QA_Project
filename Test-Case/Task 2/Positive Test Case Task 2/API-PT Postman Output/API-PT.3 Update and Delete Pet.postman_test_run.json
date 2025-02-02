@@ -1,0 +1,88 @@
+{
+	"id": "f4889ee8-df71-404f-9dc7-1fcfcee7867b",
+	"name": "API-PT.3 Update and Delete Pet",
+	"timestamp": "2025-02-02T02:40:33.910Z",
+	"collection_id": "41691738-074ca7c1-b9d2-4f6f-ab84-8e21f8ede2ff",
+	"folder_id": 0,
+	"environment_id": "41691738-6716f750-1fd0-45c2-ad5a-9e981c9d70ce",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-02-02T02:40:32.556Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a503883c-6b5c-40fc-bf63-3ad5d3a06b94",
+			"name": "API.PT.3.1 Updates a pet in the store with form data",
+			"url": "https://petstore.swagger.io/v2/pet/",
+			"time": 234,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				234
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b591c349-c135-4bf0-a8da-b7b176a14629",
+			"name": "API.PT.3.2 Deletes a pet",
+			"url": "https://petstore.swagger.io/v2/pet/",
+			"time": 233,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				233
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ab6dd0bc-f424-46f4-96e3-1b5971b48f6b",
+			"name": "API.PT.3.3 Find pet by ID confirm delete check",
+			"url": "https://petstore.swagger.io/v2/pet/",
+			"time": 234,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				234
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 701,
+	"collection": {
+		"requests": [
+			{
+				"id": "a503883c-6b5c-40fc-bf63-3ad5d3a06b94",
+				"method": "POST"
+			},
+			{
+				"id": "b591c349-c135-4bf0-a8da-b7b176a14629",
+				"method": "DELETE"
+			},
+			{
+				"id": "ab6dd0bc-f424-46f4-96e3-1b5971b48f6b",
+				"method": "GET"
+			}
+		]
+	}
+}
